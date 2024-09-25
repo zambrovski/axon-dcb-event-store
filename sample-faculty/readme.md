@@ -8,7 +8,7 @@ A student can enroll in the faculty. The faculty can decide to create a course w
 students who can subscribe to a course. The capacity of the course must be maintained. After the course has been
 created, its capacity can be changed. A student can subscribe to a course and unsubscribe.
 
-Let’s do a short modeling session to identify events.
+Let’s do a short [modeling session](https://miro.com/app/board/uXjVKk4QyFc=/) to identify events.
 
 * `StudentEnrolledFaculty` - a fact that a student has enrolled faculty
 * `CourseCreated` - a fact that a course has been created with assigned capacity
