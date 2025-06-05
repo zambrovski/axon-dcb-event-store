@@ -57,7 +57,7 @@ public class RenameCourseCommandHandler implements DcbCommandHandler<RenameCours
 
     <T extends State> T evolve(Object event);
 
-    List<Event> handle(RenameCourse command)
+    List<Event> handle(RenameCourse command);
 
     static NoCourseCreatedState initial() {
       return new NoCourseCreatedState();
